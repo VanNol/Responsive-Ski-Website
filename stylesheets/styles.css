@@ -7,7 +7,7 @@
 }
 
 :root {
-  --clr-primary: #545f5b;
+  --clr-primary: #F70058;
   --clr-dark: #0C0E36;
   --clr-light: #FFF;
   --fw-normal: 400;
@@ -71,6 +71,11 @@ header {
 .logo {
   margin-top: 1em;
 }
+
+nav {
+  max-width: 80%;
+  margin: 0 auto;
+;}
 
 .nav__list {
   display: flex;
